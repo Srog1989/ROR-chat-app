@@ -10,6 +10,7 @@ require("semantic-ui").start();
 require("@rails/activestorage").start();
 require("require_tree").start();
 require("channels");
+// require("@rails/ujs");
 
 // $(document).on('turbolinks:load', function() {
 //     $('.ui.dropdown').dropdown();
