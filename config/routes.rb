@@ -5,4 +5,6 @@ post 'login', to: 'sessions#create'
 get 'logout', to: 'sessions#destroy'
 post 'message', to: 'messages#create'
 
+mount ActionCable.server, at: '/cable'
+
 end
